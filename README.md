@@ -1,2 +1,2 @@
-# Note2
+# This is a notebook
 everything deserved to know
