@@ -1,0 +1,51 @@
+# stack=[(0,1)]
+# for node , l in stack:
+#     print(node)
+#     print(l)
+    
+
+    
+# class Solution:
+#     def deepestLeavesSum(self, root: TreeNode) -> int:
+#         next_level = deque([root,])
+        
+#         while next_level:
+#             # prepare for the next level
+#             curr_level = next_level
+#             next_level = deque()
+            
+#             for node in curr_level:
+#                 # add child nodes of the current level
+#                 # in the queue for the next level
+#                 if node.left:
+#                     next_level.append(node.left)
+#                 if node.right:
+#                     next_level.append(node.right)
+        
+#         return sum([node.val for node in curr_level])
+    
+# queue = deque([root])
+#         while queue:
+#             sum = 0
+#             for i in range(len(queue)):
+#                 node = queue.popleft()
+#                 sum += node.val
+#                 if node.left:
+#                     queue.append(node.left)
+#                 if node.right:
+#                     queue.append(node.right)
+#         return sum
+
+
+
+# n=234
+# integer=list(n)
+# for i in n:
+#     print(i)
+    
+from functools import reduce  
+from operator import mul
+n=123
+digit=[int(i) for i in str(n)]
+a=reduce(mul,digit)
+print(a)
