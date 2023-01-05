@@ -1,2 +1,2 @@
-# This is a notebook
+# This is my deep-learning notebook! :)
 everything deserved to know
