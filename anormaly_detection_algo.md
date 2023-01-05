@@ -1,0 +1,3 @@
+![image](https://user-images.githubusercontent.com/111692657/210702118-9c0a6be9-db93-43d9-b11e-8f17137b9a09.png)  
+mu1 stand for feature 1's mean, sigma1 stands for feature 1;s standard deviation....  
+![image](https://user-images.githubusercontent.com/111692657/210702531-88aa03a7-b9b6-4102-ac1f-67e7c3ab623d.png)  
